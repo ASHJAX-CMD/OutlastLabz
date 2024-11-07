@@ -1,16 +1,20 @@
 *{
   padding: 0%;
   margin: 0%;
+  box-sizing: border-box;
 }
 body{
   width: 100vw;
   height: 100vh;
   background-color: #FFFFFF;
-}
+  /* overflow-x: hidden;
+} */
 #main{
   width:100%;
   height: 100%;
+  position: relative;
   background-color: #FFFFFF;
+  overflow-x: hidden;
 }
 #nav-con{
   width:100vw;
@@ -93,9 +97,10 @@ body{
   justify-content: center;
   height: 100%;
   width:100%;
-  background-color: #ad4a4a;
+  /* background-color: #ad4a4a; */
   margin-top: 160px;
   border-radius: 10px;
+  position: relative;
  
 }
 
@@ -104,7 +109,7 @@ body{
   display: flex;
   justify-content: center;
   height: 100px;
-  position:absolute;
+  position:relative;
   border-radius: 10px;
  
   
@@ -116,20 +121,21 @@ body{
   padding-left: 5px;
   padding-right: 5px;
   height: fit-content;
+  position: absolute;
   
 }
 
 #content{
-  /* position: absolute; */
-  /* background-color: #130f40; */
   position: absolute;
+  /* background-color: #130f40; */
+  /* position: relative; */
   z-index: 3;
   height: 700px;
   width:600px;
-  margin-top: -750px;
-  /* padding-top: 150px; */
+  
+  padding-top: 150px;
   margin-left: -60vw;
-  margin-top: 45vh;
+  margin-top: 18vh;
 
 }
 
@@ -194,4 +200,97 @@ body{
   background-color: transparent;
   border: solid 2px #FFFFFF;
   color: #FFFFFF          ;
+  
 }
+
+#cards1-con{
+  position: relative;
+  height: 50%;
+  width:100%;
+  /* background-color: #C91E23; */
+  margin-top: 20vh;
+  width: 104%;  /* Or a fixed width */
+  overflow-x: auto; /* Allow horizontal scrolling */
+  white-space: nowrap; /* Prevent line breaks inside the container */
+  padding-right: 3vw;
+}
+#cards1::-webkit-scrollbar {
+  display: none;        /* Hide the scrollbar */
+}
+#cards1-con::-webkit-scrollbar {
+  display: none;        /* Hide the scrollbar */
+}
+#cards1{
+  position: relative;
+  height: 100%;
+  width:100%;
+  /* background-color: #C91E23; */
+  padding-right: 3vw;
+  
+  
+}
+.cards{
+  margin-top: 3vh;
+  margin-left: 2vw;
+  position: absolute;
+  border-radius: 10px;
+  height: 90%;
+  width:25%;
+  /* background-color: #695152; */
+  display: flex;
+  justify-content: center;    /* Center the image horizontally */
+  align-items: center;        /* Center the image vertically */
+  overflow: hidden;    
+  
+
+}
+.img1{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#card1{
+  /* position: absolute; */
+}
+#card2{
+  margin-left: 28vw;
+}
+#card3{
+  margin-left: 54vw;
+}
+#card4{
+  margin-left: 80vw;
+}
+
+#card5{
+  margin-left: 106vw;
+}
+
+#card6{
+  margin-left: 132vw;
+}
+#card7{
+  margin-left: 158vw;
+}
+#card8{
+  margin-left: 184vw;
+  
+  
+}
+
+/* .text-cont{ */
+  /* position:absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);;
+  z-index: 3;
+  margin-left: 10vw;
+}
+#p1{
+  /* margin-left: 10vw; */
+}
+ #text{
+  position: absolute;
+  margin-left: 10vw;
+ }
