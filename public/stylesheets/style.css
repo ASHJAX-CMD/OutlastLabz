@@ -135,7 +135,7 @@ body{
   
   padding-top: 150px;
   margin-left: -60vw;
-  margin-top: 18vh;
+  margin-top: 11vh;
 
 }
 
@@ -231,7 +231,7 @@ body{
 }
 .cards{
   margin-top: 3vh;
-  margin-left: 2vw;
+  /* padding-left: 2vw; */
   position: absolute;
   border-radius: 10px;
   height: 90%;
@@ -250,31 +250,29 @@ body{
   object-fit: cover;
 }
 
-#card1{
-  /* position: absolute; */
-}
+
 #card2{
-  margin-left: 28vw;
+  margin-left: 27rem;
 }
 #card3{
-  margin-left: 54vw;
+  margin-left: 54rem;
 }
 #card4{
-  margin-left: 80vw;
+  margin-left: 81rem;
 }
 
 #card5{
-  margin-left: 106vw;
+  margin-left: 109rem;
 }
 
 #card6{
-  margin-left: 132vw;
+  margin-left: 129vw;
 }
 #card7{
-  margin-left: 158vw;
+  margin-left: 155vw;
 }
 #card8{
-  margin-left: 184vw;
+  margin-left: 181vw;
   
   
 }
@@ -290,7 +288,51 @@ body{
 #p1{
   /* margin-left: 10vw; */
 }
- #text{
+ 
+.overlay-text {
   position: absolute;
-  margin-left: 10vw;
- }
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Centers the text */
+  color: white;
+  font-size: 2rem;  /* Adjust as needed */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Text shadow effect */
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;}
+
+  .overlay-text .line1 {
+    margin: 0;
+    text-shadow: 5rem 5rem 5rem rgba(0, 0, 0, 0.6); /* Text shadow for the first line */
+  }
+  
+  /* Style for the second line of text */
+  .overlay-text .line2 {
+    margin: 0;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.712); /* Text shadow for the second line */
+    margin-top: 10px; /* Space between the lines */
+  }
+.overlay-text .line2{
+  text-decoration: underline 0.4rem solid #C91E23;
+  text-underline-offset: 0.5rem;
+}
+  .cards {
+    width: 200px;
+    height: 100px;
+    background-color: #3498db;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out; /* Smooth transition for transform and box-shadow */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Default shadow */
+  }
+  
+  /* Hover effect */
+  .cards:hover {
+    transform: translateY(-10px); /* Move the card up */
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3); /* Bigger shadow for more pop-out effect */
+  }
+  
