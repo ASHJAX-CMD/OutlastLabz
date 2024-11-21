@@ -220,6 +220,7 @@ body {
   overflow-x: auto; /* Allow horizontal scrolling */
   white-space: nowrap; /* Prevent line breaks inside the container */
   padding-right: 3vw;
+  background-color: #EEEEEE;
 }
 #cards1::-webkit-scrollbar {
   display: none;        /* Hide the scrollbar */
@@ -881,4 +882,77 @@ display: block;
 .t2{
   color: #292828;
   padding-top: 8px;
+}
+
+/* Styling for the image container to hold the images */
+.image-container {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  height: 1000px; /* Adjust the height as needed */
+  overflow: hidden; /* Prevent any overflow */
+  border-radius: 10px;
+  padding: 50px;
+}
+
+/* Styling for individual image items */
+.image-item {
+  position: relative;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* Align text at the bottom */
+  border-radius: 10px;
+}
+
+.image-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the container */
+  border-radius:10px ;
+}
+
+.image-item .t-con {
+  position: absolute;
+  bottom: 10px; /* Space between the image and the text */
+  left: 50%;
+  /* padding-left: 30%; */
+  transform: translateX(-50%);
+  margin: 0;
+  color: white; /* Text color */
+  font-size: 16px; /* Adjust text size */
+  background-color: rgba(0, 0, 0, 0.5); /* Optional background for readability */
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  align-items: center;
+}
+.al1{
+  color: #ffffff;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+.al2{
+  margin-top: -5px;
+  
+}
+.aroww{
+  font-size: 2rem;
+}
+
+.element6{
+  background-color: #EEEEEE;
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+.head h1{
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.head{
+  margin-left: 2%;
+  margin-bottom: -1%;
 }
