@@ -944,9 +944,9 @@ display: block;
 }
 
 .element6{
-  background-color: #EEEEEE;
-  padding-top: 70px;
-  padding-bottom: 50px;
+  /* background-color: #EEEEEE; */
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 .head h1{
   font-weight: 700;
@@ -955,4 +955,112 @@ display: block;
 .head{
   margin-left: 2%;
   margin-bottom: -1%;
+}
+/* Container holding all the items */
+.containerx {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: fit-content;
+  overflow-x: auto  ;
+  flex-wrap: nowrap;
+  gap: 1%;
+  padding: 2% 4%;
+  -webkit-overflow-scrolling: touch; /* Smooth scrolling */
+}
+
+/* Hide scrollbar for WebKit browsers */
+.containerx::-webkit-scrollbar {
+  display: none;
+}
+
+.itemx {
+  width: 20%; /* Each item takes up 40% of the container's width */
+  box-sizing: border-box; /* Include padding and border in width calculation */
+  padding: 2%; /* Add padding inside each item */
+  flex-shrink: 0;
+  /* text-align: center; */
+  border: 0.5px solid black;
+  padding-top: 3%;
+  padding-bottom:3%;
+  height: fit-content;
+  border-radius: 2%;
+}
+
+.e71{
+  color:#000000;
+  font-size: 1.1rem;
+  padding-top: 1.7rem;
+  /* margin-bottom: -2rem; */
+  font-weight: 700;
+}
+.e72{
+  margin-bottom:30px;
+  margin-top:-10px;
+  /* font-weight: 500; */
+  /* font-size: 1rem; */
+  color:black;
+  font-weight: 500;
+  font-size: 1.2rem;
+
+}
+.desc{
+  color:#000000;
+  font-size: 1rem;
+}
+.sttar span{
+  color: #000000;
+}
+.star2{
+  color:rgb(235, 16, 0);
+}
+.head{
+padding:2%;
+}
+
+/* Make sure the body takes full height 
+/* Container for the image */
+.image-containerm {
+  position: relative;
+  height: auto;
+  background: url('your-image-url.jpg') no-repeat center center;
+  background-size: cover;
+  
+  
+}
+.image-containerm img{
+  width: 100%;
+  
+}
+
+/* Blackish overlay */
+.overlaym {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.562); /* Adjust the opacity to make it more or less dark */
+  z-index: 1;
+}
+
+/* Content in the middle */
+.contentm {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  z-index: 2;
+  text-align: center;
+}
+
+.contentm h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.contentm p {
+  margin: 10px 0;
+  font-size: 1.2rem;
 }
