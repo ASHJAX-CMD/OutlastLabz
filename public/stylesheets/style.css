@@ -1064,3 +1064,165 @@ padding:2%;
   margin: 10px 0;
   font-size: 1.2rem;
 }
+.btn7{
+  padding: 0.6rem 5rem;
+  border-radius: 0.3rem;
+  font-size: 1.3rem;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
+.con-p{
+  height: 15rem;
+  background-color: #EB1000;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+input::placeholder {
+  color: #ffffff;             /* Light gray color */
+  font-style: italic;      /* Italicize the placeholder text */
+  font-weight: bold;       /* Make the placeholder text bold */
+  font-size: 1.2rem;         /* Change the font size */
+  opacity: 1;              /* Ensure placeholder text is fully opaque */
+}
+
+/* Optional: Change placeholder style when input is focused */
+input:focus::placeholder {
+  color: #bebebe;             /* Change color when focused */
+  font-style: normal;      /* Remove italics when focused */
+}
+.text-9{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -3%;
+}
+
+.cont-o{
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  background-color: #000000;
+ height: auto;
+}
+.background {
+  background-color: black;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-container {
+  text-align: center;
+  color: white;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+}
+
+.img-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+#img10{
+  width: 20rem;
+  height: auto;
+}
+
+.btn10{
+  padding: 1.5rem 7rem;
+  border-radius: 10px;
+  color:#000000;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+.tex11{
+  text-align:start;
+  padding: 2%;
+}
+#con11{
+  display: flex;
+  background-color: black;
+  justify-content: center;
+  /* align-items: center; */
+}
+.tex11 p{
+  color:rgba(255, 255, 255, 0.815);
+  font-weight: 400;
+  cursor: pointer;
+}
+.s1{
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem 8rem;
+  background-color: #000000;
+ 
+}
+.cont-e{
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.s2{
+  display: flex;
+  justify-content: space-around;
+  padding: 0rem 8rem;
+  padding-bottom: 2rem;
+  background-color: #000000;
+  
+}
+.s1a, .s1b{
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgb(85, 85, 85);
+  width: 40%;
+  padding: 1%;
+  align-items: center;
+  color: white;
+}
+
+.s1a:hover{
+  border: 1px solid white ;
+}
+.plus1{
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.s1b:hover{
+  border: 1px solid white ;
+}
+
+.elementf{
+  background-color: #000000;
+  height: 10%;
+}
